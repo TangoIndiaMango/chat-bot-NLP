@@ -1,0 +1,913 @@
+{
+  "chatbot": [
+    {
+      "tag": "greetings",
+      "intent": [
+        "Hey",
+        "Hi",
+        "How is it going ?"
+      ],
+      "response": [
+        "Good day",
+        "Hope you're doing okay ?",
+        "i am doing okay .",
+        "Hello, happy to have you here"
+      ]
+    },
+    {
+      "tag": "i need to know",
+      "intent": [
+        "i need to know"
+      ],
+      "respone": [
+        "what would you like to know"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "intent": [
+        "i dont understand ."
+      ],
+      "response": [
+        "from where ?",
+        "where should i start from ?",
+        "which part ?",
+        "what don't you understand ?"
+      ]
+    },
+    {
+      "tag": "please what form is this",
+      "intent": [
+        "please what form is this",
+        "what is this form about"
+      ],
+      "response": [
+        "It is a form that helps you get around your registration issues",
+        "which form DV2, DV3 or DV4 ?"
+      ]
+    },
+    {
+      "tag": "DV2 form",
+      "intent": [
+        "DV2 form",
+        "which form is the DV2 form ?"
+      ],
+      "response": [
+        "It is a form required to change an incomplete qualification"
+      ]
+    },
+    {
+      "tag": "DV3 form",
+      "intent": [
+        "DV3 form",
+        "which form is the DV3 form ?"
+      ],
+      "response": [
+        "Application form for registered students in their final year"
+      ]
+    },
+    {
+      "tag": "DV4 form",
+      "intent": [
+        "DV4 form",
+        "which form is the DV4 form ?"
+      ],
+      "response": [
+        "Request for registration"
+      ]
+    },
+    {
+      "tag": "i don't know my color",
+      "intent": [
+        "i don't know my color",
+        "what is my color",
+        "Which colour indicate your academic standing ."
+      ],
+      "response": [
+        "you can either be green, yellow, orange or red",
+        "you can either be green, yellow one, yellow two, yellow three, orange one, orange two, orange three or red ."
+      ]
+    },
+    {
+      "tag": "how can i know my color ?.",
+      "intent": [
+        "how do i know the color that i belong to",
+        "how can i know my color ."
+      ],
+      "response": [
+        "what is your academic standing ?",
+        "contact your faculty academic advisor" 
+      ]
+    },
+    {
+      "tag": "what is the registration student academic service .",
+      "intent": [
+        "what is the registration student academic service ",
+        "registration student academic service is what",
+        "what is the registration student academic service ."
+      ],
+      "response": [
+        "where you can sign up for modules",
+        "where to register your modules or forms",
+        "where to raise issues you might encounter"
+      ]
+    },
+    {
+      "tag": "can you get exempted form the UFS module?",
+      "intent": [
+        "can you get exempted form the UFS module ?",
+        "is it possible to get exempted from UFS module ?",
+        "how possible or easier is it to get exempted UFS module form"
+      ],
+      "response": [
+        "no you can't be exempted from the UFS module, it is compulsory"
+      ]
+    },
+    {
+      "tag": "I'm academically excluded, does that mean I cannot continue with the next semester's modules ?",
+      "intent": [
+        "I'm academically excluded, does that mean I cannot continue with the next semester's modules"
+      ],
+      "response": [
+        "yes, contact the deans office"
+      ]
+    },
+    {
+      "tag": "how do i access blackboard",
+      "intent": [
+        "how do i access blackboard",
+        "how can someone access blackboard"
+      ],
+      "response": [
+        "go to UFS website to access blackboard"
+      ]
+    },
+    {
+      "tag": "how do i sign in on blackboard app",
+      "intent": [
+        "how do i sign in on blackboard app",
+        "how can someone signin to blackboard app",
+        "how can i login to my blackboard portal"
+      ],
+      "response": [
+        "use your username and password to sign in on the blackboard app"
+      ]
+    },
+    {
+      "tag": "i am in need of funding what do i do ",
+      "intent": [
+        "i am in need of funding what do i do ?",
+        "i need funding what can i do ?",
+        "how can i access funding ?",
+        "how do i get funding ?",
+        "can you fund me ?"
+      ],
+      "response": [
+        "Contact financial aids if you need funding"
+      ]
+    },
+    {
+      "tag": "I'm struggling to register online",
+      "intent": [
+        "how do i register online ",
+        "why can't i register online ?",
+        "i'm finding it difficult to register online, why ?"
+      ],
+      "response": [
+        "maybe you have financial hold .",
+        "maybe you have academic advisement hold .",
+        "maybe you have international hold .",
+        "is your color red ?"
+      ]
+    },
+    {
+      "tag": "If my academic standing is green, what do I need to do ?",
+      "intent": [
+        "If my academic standing is green, what do I need to do ?",
+        "my academic standing is green .",
+        "what if i am green ?",
+        "i am green ."
+      ],
+      "response": [
+        "You are excellent, should you have additional queries however, you are welcome to contact your advisor ",
+        "You passed 100% of your modules, should you have additional queries however, you are welcome to contact your advisor  .",
+        "You have never changed your programme plan, should you have additional queries however, you are welcome to contact your advisor  .",
+        "No action required .",
+        "You are on track, should you have additional queries however, you are welcome to contact your advisor  ",
+        "You may proceed to register online ",
+        "No hold or block on your record, should you have additional queries, however you are welcome to contact your advisor  ."
+      ]
+    },
+    {
+      "tag": "I am yellow ",
+      "intent": [
+        "If my academic standing is yellow what do I need to do ?",
+        "my academic standing is yellow .",
+        "what if i am yellow ?"
+      ],
+      "response": [
+        "are you yellow-one yellow-two yellow-three? "
+      ]
+    },
+    {
+      "tag": "i am yellow-one",
+      "intent": [
+        "what if i'm a yellow-one ?",
+        "my academic standing is yellow-one .",
+        "yellow one ",
+        "If my academic standing is yellow-one what do I need to do ?"
+      ],
+      "response": [
+        "You did not pass all your modules, but you are still on track .",
+        "Proceed to register online, but first register the modules you failed ."
+      ]
+    },
+    {
+      "tag": "i am yellow-two .",
+      "intent": [
+        "i am yellow-two .",
+        "If my academic standing is yellow two, what do I need to do ?",
+        "yellow-two ,",
+        "my academic standing is yellow two ."
+      ],
+      "response": [
+        "You have failed modules in the past and changed your academic plan or programme .",
+        "You have completed a DV2 form previously"
+      ]
+    },
+    {
+      "tag": "i am yellow-three .",
+      "intent": [
+        "i am yellow three .",
+        "yellow-three ,",
+        "my academic standing is yellow three .",
+        "If my academic standing is yellow three, what do I need to do ?"
+      ],
+      "response": [
+        "You have never failed credits or modules, but changed your academic programme or plan .",
+        "You have completed a DV2 form previously ."
+      ]
+    },
+    {
+      "tag": "i am red",
+      "intent": [
+        "does red indicate a good academic standing ?",
+        "my color is red, what does it mean ?",
+        "red",
+        "my academic standing is red",
+        "i am red"
+      ],
+      "response": [
+        "You are high piority",
+        "You do not meet the progression rules and credit requirements ",
+        "You cannot proceed to register ",
+        "You must appeal for re-admission to the UFS ",
+        "Check your UFS4life email for an exclusion letter from your faculty",
+        "Submit an appeal by the deadline indicated in your exclusion letter ",
+        "If you fail to appeal by the deadline, you will need to reapply for re-admission"
+
+      ]
+    },
+    {
+      "tag": "what kind of form required to change an incomplete qualification ?",
+      "intent": [
+        "what kind of form required to change an incomplete qualification ?",
+        "how can i change an incomplete qualification ?"
+      ],
+      "response": [
+        "you're to fill a DV2 form",
+        "A DV2 form"
+      ]
+    },
+    {
+      "tag": "is UFS101 module compulsory?",
+      "intent": [
+        "is UFS101 a compulsory module ?",
+        "is ufs a compulsory module ?",
+        "is ufs a compulsory ?"
+      ],
+      "response": [
+        "it is a compulsory module",
+        "yes "
+      ]
+    },
+    {
+      "tag": "what is elective module ?",
+      "intent": [
+        "what is elective module ?",
+        "elective module is what ?"
+      ],
+      "response": [
+        "Elective module is chosen by the student from the list given by the institute in a given semester ."
+      ]
+    },
+    {
+      "tag": "enroll link but I am still not enrolled for the selected modules .",
+      "intent": [
+        "I have clicked on the enroll link but I am still not enrolled for the selected modules .",
+        "how do i enroll for a module ?",
+        "enroll link but I am still not enrolled for the selected modules "
+      ],
+      "response": [
+        "Make sure you select the checkboxes for the modules you need to register for .",
+        "be sure to select the module checkboxes ."
+      ]
+    },
+    {
+      "tag": "how do i register online ?",
+      "intent": [
+        "how do i register online ?",
+        "can i register online ?",
+        "i want to register online. "
+      ],
+      "response": [
+        "Log into Student Self-Service, and select programme enrollment to register online ."
+      ]
+    },
+    {
+      "tag": "what are the requirements to register ?",
+      "intent": [
+        "what are the requirements to register ?",
+        "what do i need to register ?",
+        "i want to register ."
+      ],
+      "response": [
+        "if you're a new student pay registration fees of 7500 or contact student finance .",
+        "you will pay registration fees of 7500 or contact student finance if you are a new student ."
+      ]
+    },
+    {
+      "tag": "i am having problem to do my education plan .",
+      "intent": [
+        "i am having problem to do my education plan .",
+        "i can't get my education plan done ",
+        "how to do my educational plan ",
+        "how can i do my educational plan ?"
+      ],
+      "response": [
+        "Go to UFS website and check the learning programme information in the departmental year book .",
+        "head to the UFS website and check the learning program information in the department year book ."
+      ]
+    },
+    {
+      "tag": "when do registration start and end ?",
+      "intent": [
+        "when do registration start and end ?",
+        "when will registration end ?",
+        "when will registartion start ?"
+      ],
+      "response": [
+        "you will find it on the university website under student self service .",
+        "under student self service in the university website ."
+      ]
+    },
+    {
+      "tag": "how can i add or drop a module ?",
+      "intent": [
+        "how can i add or drop a module ?",
+        "i want to drop a module .",
+        "i want to add a module .",
+        "how can i add a module?",
+        "how can i drop a module ?"
+      ],
+      "response": [
+        "You can do it online on student self-service or contact your programme director .",
+        "contact your programme director .",
+        "you can do it online through the university website ."
+      ]
+    },
+    {
+      "tag": "i'm unable to select my modules",
+      "intent": [
+        "i'm unable to select my modules .",
+        "i can't select my module",
+        "i am unable to select my modules"
+      ],
+      "response": [
+        "Contact student academic services 0514019111 .",
+        "you can call student service at 0514019111 .",
+        "contact academic services at 0514019111 ."
+      ]
+    },
+    {
+      "tag": "NSFAS student and I have outstanding fees.",
+      "intent": [
+        "I am a NSFAS student and I have outstanding fees. Will I be allowed to register?",
+        "i have outstanding fees will i be allowed to register ?",
+        "Will I be allowed to register ?"
+      ],
+      "response": [
+        "Contact student finance 0514019111 ."
+      ]
+    },
+    {
+      "tag": "how much is my registration fees ?",
+      "intent": [
+        "how much is my registration fees ?",
+        "my registration fees cost how much ?",
+        "how much will i pay for registration ?"
+      ],
+      "response": [
+        "go to ufs website and check student self service option ."
+      ]
+    },
+    {
+      "tag": "Where can I find out more information about academic support ?",
+      "intent": [
+        "Where can I find out more information about academic support ?",
+        "i need more information about academic support",
+        "what is academic support ?",
+        "where can i find academic support ?"
+      ],
+      "response": [
+        "Contact student academic service or call 0514019666"
+      ]
+    },
+    {
+      "tag": "I have forgotten my password, how do I regain access to register",
+      "intent": [
+        "I have forgotten my password, how do I regain access to register",
+        "i forgot my password",
+        "i cant remeber my password .",
+        "how can i regain access to register ?"
+      ],
+      "response": [
+        "Go to UFS website, check student self-service for student password management"
+      ]
+    },
+    {
+      "tag": "what should i do after registration ?",
+      "intent": [
+        "what should i do after registration ?"
+      ],
+      "response": [
+        "Print your proof of registration from student self-service on UFS website"
+      ]
+    },
+    {
+      "tag": "Do I have to pay for registration if my NSFAS funds were approved ?",
+      "intent": [
+        "Do I have to pay for registration if my NSFAS funds were approved ?",
+        "if my NSFAS funds were approved do i need to pay ?"
+      ],
+      "response": [
+        "Contact student finance office or call 0514019111"
+      ]
+    },
+    {
+      "tag": "would failing a module cost me and extra year ?",
+      "intent": [
+        "would failing a module cost me and extra year ?",
+        "if i fail a module will i have an extra year ?"
+      ],
+      "response": [
+        "contact your programme director ."
+      ]
+    },
+    {
+      "tag": "i have registered my modules under the wrong code .",
+      "intent": [
+        "i registerd my modules under the wrong code .",
+        "i have registered my modules under the wrong code .",
+        "what should i do if i register wrong code ?",
+        "what should i do if i register wrong modules ?"
+      ],
+      "response": [
+        "contact your programme director ."
+      ]
+    },
+    {
+      "tag": "what happens if i fail a module ?",
+      "intent": [
+        "what happens if i fail a module ?",
+        "i failed a module what should i do ?",
+        "failed module what next ?"
+      ],
+      "response": [
+        "You re-registered the module. Also contact your programme director",
+        "register for the module again .",
+        "contact your programme director ."
+      ]
+    },
+    {
+      "tag": "What do I need to do if I did not study for a year and willing to return to finish ?",
+      "intent": [
+        "What do I need to do if I did not study for a year and willing to return to finish ?",
+        "i want to defere",
+        "i would like to return and finish ."
+      ],
+      "response": [
+        "you apply for degree again ?",
+        "apply for degree ."
+      ]
+    },
+    {
+      "tag": "I failed my modules and I was told that I did not meet the requirements to continue is there something I can do?",
+      "intent": [
+        "I failed my modules and I was told that I did not meet the requirements to continue is there something I can do ?",
+        "i do not meet requirements ",
+        "i do not meet requirements to continue ."
+      ],
+      "response": [
+        "contact the deans office for appeals"
+      ]
+    },
+    {
+      "tag": "how much are tuition fees ?",
+      "intent": [
+        "how much are tuition fees ?",
+        "what is the cost for tuition fees ?",
+        "tuiton fees cost ?",
+        "tuition fees"
+      ],
+      "response": [
+        "Go to UFS website and check student self-service option for fees year book or you can generate the quotation online"
+      ]
+    },
+    {
+      "tag": "I'm academically excluded, does that mean I cannot continue with the next semester's modules",
+      "intent": [
+        "I'm academically excluded, does that mean I cannot continue with the next semester's modules .",
+        "academically excluded ."
+      ],
+      "response": [
+        "yes contact the deans office ."
+      ]
+    },
+    {
+      "tag": "I registered for an incorrect module, how can I enroll for the correct one?",
+      "intent": [
+        "I registered for an incorrect module, how can I enroll for the correct one ?",
+        "how can i enroll for correct module .",
+        "what do i do if i register incorrect module?",
+        "I registered for an incorrect module "
+      ],
+      "response": [
+        "Contact your programme director is the quickest way .",
+        "Log into Student Self-Service, drop the incorrect module and add the correct module .",
+        "Drop the course and register the right module ."
+      ]
+    },
+    {
+      "tag": "how much is my registration of the course i choose to study ?",
+      "intent": [
+        "how much is my registration of the course i choose to study ?"
+      ],
+      "response": [
+        "Go to UFS website, check student self-service for fees year book ."
+      ]
+    },
+    {
+      "tag": "I paid my own registration fees and received NSFAS thereafter, can I get a refund",
+      "intent": [
+        "I paid my own registration fees and received NSFAS thereafter, can I get a refund",
+        "can i get refund ?",
+        "i paid my own registration fees .",
+        "received NSFAS thereafter ."
+      ],
+      "response": [
+        "Contact student finance 0514019111 ."
+      ]
+    },
+    {
+      "tag": "Where do I get assistance if I don't understand my module content ?",
+      "intent": [
+        "Where do I get assistance if I don't understand my module content?",
+        "where can i get assistance ?",
+        "i dont understand my module content."
+      ],
+      "response": [
+        "contact your module presenter or your lecture",
+        "contact your lecturer"
+      ]
+    },
+    {
+      "tag": "would NAFAS fund me if i fail any modules ?",
+      "intent": [
+        "would NAFAS still fund me if i fail any modules ?",
+        "will i still get funds from NAFAS if i fail a module ?",
+        "would NAFAS fund me if i fail any modules ?"
+      ],
+      "response": [
+        "contact NAFAS for appeal"
+      ]
+    },
+    {
+      "tag": "what are the university banking details ?",
+      "intent": [
+        "what are the university banking details ?",
+        "what is the university banking details ?",
+        "how can i find the university banking details ?",
+        "does the university have a banking details ?",
+        "university banking details"
+      ],
+      "response": [
+        "You can find it on the university website and check student finance"
+      ]
+    },
+    {
+      "tag": "can i pay online ?",
+      "intent": [
+        "can i pay online ?"
+      ],
+      "response": [
+        "Check the university website and check student finance",
+        "if you can navigate the university website",
+        "you can find the university banking details in the university website"
+      ]
+    },
+    {
+      "tag": "What do I do if my modules do not appear on Blackboard?",
+      "intent": [
+        "What do I do if my modules do not appear on Blackboard ?",
+        "my modules do not appear on the blackboard ",
+        "i cant find my modules on the blackboard app"
+      ],
+      "response": [
+        "Call help desk for blackboard enquiries or call 0514012000 ."
+      ]
+    },
+    {
+      "tag": "How long does it take for modules to appear or disappear on Blackboard?",
+      "intent": [
+        "How long does it take for modules to appear or disappear on Blackboard?"
+      ],
+      "response": [
+        "Call help desk for blackboard enquiries or call 0514012000 ."
+      ]
+    },
+    {
+      "tag": "how much does it cost to add a module not funded",
+      "intent": [
+        "how much does it cost to add a module not funded"
+      ],
+      "response": [
+        "Contact student finance or go to UFS website and check student finance to generate quotation .",
+        "go to UFS website and check student finance to generate quotation .",
+        "Contact student finance "
+      ]
+    },
+    {
+      "tag": "can i choose courses accross departments ?",
+      "intent": [
+        "can i choose courses accross departments ?",
+        "can i choose modules across departments ?",
+        "can i choose module accross department ?"
+      ],
+      "response": [
+        "you can but contact your programme director ."
+      ]
+    },
+    {
+      "tag": "How can I contact the international office staff during registration ?",
+      "intent": [
+        "How can I contact the international office staff during registration ?",
+        "contact during registration ?",
+        "How can I contact the international office ?"
+      ],
+      "response": [
+        "Via email or call 0514013219"
+      ]
+    },
+    {
+      "tag": "how much do i pay ?",
+      "intent": [
+        "how much do i pay ?",
+        "what does it cost ?"
+      ],
+      "response": [
+        "Contact student finance office or call 0514019111"
+      ]
+    },
+    {
+      "tag": "can i register with my study visa reciept ?",
+      "intent": [
+        "can i register with my study visa reciept ?",
+        "can i submit my study visa reciept ?"
+      ],
+      "response": [
+        "yes but call international office on 0514013219 ."
+      ]
+    },
+    {
+      "tag": "i am in need of funding what should i do ?",
+      "intent": [
+        "i am in need of funding what do i do",
+        "if i need funds what can i do ?",
+        "i need supposrt what should i do ?",
+        "do they offer funds? ",
+        "do they offer support? "
+      ],
+      "response": [
+        "Contact financial aids if you need funding ,",
+        "Contact financial aids"
+      ]
+    },
+    {
+      "tag": "I have accepted the offer, what is my next step?",
+      "intent": [
+        "I have accepted the offer, what is my next step ?",
+        "i accept the offer"
+      ],
+      "response": [
+        "go and register .",
+        "register on the university website ."
+      ]
+    },
+    {
+      "tag": "What are the other funding options besides NSFAS?",
+      "intent": [
+        "What are the other funding options besides NSFAS?"
+      ],
+      "response": [
+        "check online bursaries awarded by the university ."
+      ]
+    },
+    {
+      "tag": "What documents do I need to submit for registration at the international office ?",
+      "intent": [
+        "What documents do I need to submit for registration at the international office ?",
+        "what documents are needed for registration at the international office ?",
+        "international office documents"
+      ],
+      "response": [
+        "Contact international office for list of document to submit on 0514013219"
+      ]
+    },
+    {
+      "tag": "can i use my medical aid to register ?",
+      "intent": [
+        "can i register with my medical aid ?",
+        "can i use my mediacal aid to register ?"
+      ],
+      "response": [
+        "Yes, but contact student finance because there is a process to follow"
+      ]
+    },
+    {
+      "tag": "can you get exempted form the UFS module?",
+      "intent": [
+        "can you get exempted form the UFS module?"
+      ],
+      "response": [
+        "no you cant"
+      ]
+    },
+    {
+      "tag": "what is a core module ?",
+      "intent": [
+        "what is a core module ? ",
+        "what is a compulsory module ?"
+      ],
+      "response": [
+        "core module is a compulsory module"
+      ]
+    },
+    {
+      "tag": "I am orange ",
+      "intent": [
+        "i'm orange .",
+        "what if i am orange ?",
+        "i am orange"
+      ],
+      "response": [
+        "are you orange-one orange-two orange-three? "
+      ]
+    },
+    {
+      "tag": "If my academic standing is orange what do I need to do ? ",
+      "intent": [
+        "If my academic standing is orange what do I need to do ?",
+        "my academic standing is orange .",
+        "what if i am orange ?"
+      ],
+      "response": [
+        "Contact your faculty academic advisor .",
+        "You cannot continue with online registration without having a conversation with your faculty academic advisor ",
+        "If you need to change your academic programme and are uncertain what to change to, please contact your central academic advisor at centre for teaching and learning"
+
+      ]
+    },
+    {
+      "tag": "i am orange-one",
+      "intent": [
+        "what if i'm a orange-one ?",
+        "my academic standing is orange-one .",
+        "orange one ",
+        "If my academic standing is orange-one what do I need to do ?"
+      ],
+      "response": [
+        "You have failed modules more than twice .",
+	      "You have not been allocated a category .",
+        "You are a priority student ."
+      ]
+    },
+    {
+      "tag": "i am orange-two .",
+      "intent": [
+        "i am orange-two .",
+        "If my academic standing is orange two, what do I need to do ?",
+        "orange-two ,",
+        "my academic standing is orange two ."
+      ],
+      "response": [
+        "All students with no colour yet allocated .",
+				"You have not been allocated a category .",
+				"You are a priority student "
+      ]
+    },
+    {
+      "tag": "i am orange-three .",
+      "intent": [
+        "i am orange three .",
+        "orange-three ,",
+        "my academic standing is orange three .",
+        "If my academic standing is orange three, what do I need to do ?"
+      ],
+      "response": [
+        "You failed an elective module twice .",
+        "You have not been allocated a category .",
+        "You are a priority student ."
+      ]
+    },
+    {
+      "tag": "which module is compulsory ?",
+      "intent": [
+        "what are compulsory module ?",
+        "which module is compulsory ?"
+      ],
+      "response": [
+        "AGAN 1508 is a compulsory module titled language literacy English .",
+        "EALN 1508 is a compulsory module titled language literacy Afrikaan",
+        "UFS 101 is a compulsory module titled ethics, values and life skills",
+        "BCIS 1513 is a compulsory module titled introduction to information systems"
+      ]
+    },
+    {
+      "tag": "which module is elective ?",
+      "intent": [
+        "what are elective module ?",
+        "which is elective module ?",
+        "which module is elective ?"
+      ],
+      "response": [
+        "CHEM 1514 is an elective module and the content is inorganic and analytical chemistry.",
+        "CHEM 1624 is an elective module content includes organic and physical chemistry .",
+        "MATM 1534 is an elective module content is calculus .",
+        "MATM 1544 is an elective module content is calculus and linear algebra "
+      ]
+    },
+    {
+      "tag": "name",
+      "intent": [
+        "my name is Ednah ",
+        "my name is Aliyu"
+      ],
+      "response": [
+        "Ednah Aliyu is orange two"
+      ]
+    },
+    {
+      "tag": "name",
+      "intent": [
+        "my name is Sanah ",
+        "my name is Tabanyanem"
+      ],
+      "response": [
+        "Sanah Tabanyanem colour is green ."
+      ]
+    },
+    {
+      "tag": "name",
+      "intent": [
+        "my name is Burgert ",
+        "my name is Senekal"
+      ],
+      "response": [
+        "Burgert Senekal is yellow one ."
+      ]
+    },
+    {
+      "tag": "name .",
+      "intent": [
+        "my name is Reba",
+        "my name is Phuthi"
+      ],
+      "response": [
+        
+        "Reba Phuthi academic standing is blue "
+
+      ]
+    },
+    {
+      "tag": "thank you",
+      "intent": [
+        "thank you"
+      ],
+      "respone":[
+        "If you still need help after this conversation please contact your central academic advisor at centre for teaching and learning"
+      ]
+
+    }
+  ]
+}
